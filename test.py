@@ -6,5 +6,3 @@ def add(x,y):
 
 def sub(x,y):
     return x-y
-def divd(x,y):
-    return x/y
