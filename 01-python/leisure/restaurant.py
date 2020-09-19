@@ -1,6 +1,9 @@
 def draw_restaurant():
-    print ('   ###  ', '    # #  ')
-    print ('  ------  ',' ------ ' )
-    print ('    |    ', '    |  ')
-    print ('   / \  ',  '    / \  ')
-    print ('                      [outdoor only]')
+    num = 1
+
+    for x in range (num):
+        print ('   ###  ')
+        print ('  ------  ')
+        print ('    |    ')
+        print ('   / \  ')
+        print ('           [outdoor only]')
