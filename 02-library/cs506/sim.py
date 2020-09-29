@@ -1,4 +1,5 @@
 def euclidean_dist(x, y):
+<<<<<<< HEAD
     if (len(x) != len(y)):
         raise ValueError("lengths must be equal")
 
@@ -15,6 +16,12 @@ def euclidean_dist(x, y):
 
     return sum ** (1/2)
 
+=======
+    res = 0
+    for i in range(len(x)):
+        res += (x[i] - y[i])**2
+    return res**(1/2)
+>>>>>>> eb2e6f704bd9a389f973d364da1d68e917e2966a
 
 def manhattan_dist(x, y):
     dim = len(x)
